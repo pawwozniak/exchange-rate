@@ -1,0 +1,30 @@
+export const currenciesCards = [
+  'PLN',
+  'USD',
+  'EUR',
+  'JPY',
+  'GBP',
+  'AUD',
+  'CAD',
+  'CHF',
+  'CNY',
+  'HKD',
+  'NZD',
+  'SEK',
+  'TRY',
+];
+
+export const cryptoCards = [
+  { firstCurrency: 'BTC', cryptoId: 'bitcoin', key: '11' },
+  { firstCurrency: 'ETH', cryptoId: 'ethereum', key: '12' },
+  { firstCurrency: 'USDT', cryptoId: 'tether', key: '13' },
+  { firstCurrency: 'BNB', cryptoId: 'binance-coin', key: '14' },
+  { firstCurrency: 'USDC', cryptoId: 'usd-coin', key: '15' },
+  { firstCurrency: 'EOS', cryptoId: 'eos', key: '16' },
+  { firstCurrency: 'ADA', cryptoId: 'cardano', key: '17' },
+  { firstCurrency: 'SOL', cryptoId: 'solana', key: '18' },
+  { firstCurrency: 'XLM', cryptoId: 'stellar', key: '19' },
+  { firstCurrency: 'TRX', cryptoId: 'tron', key: '20' },
+  { firstCurrency: 'XMR', cryptoId: 'monero', key: '21' },
+  { firstCurrency: 'NEO', cryptoId: 'neo', key: '22' },
+];

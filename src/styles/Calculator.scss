@@ -1,0 +1,36 @@
+.calculator {
+  .select-row {
+    margin: 0 auto;
+
+    @include for-mobile {
+      width: 350px;
+    }
+
+    input,
+    select {
+      padding: 16px;
+      border-radius: 12px;
+      margin: 20px;
+      border: 1px solid $gray-border;
+
+      @include for-mobile {
+        padding: 12px;
+        margin: 10px;
+      }
+    }
+
+    button {
+      @include button;
+      background-color: $blue;
+    }
+  }
+
+  .result {
+    color: $blue;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    margin-top: 10px;
+    min-height: 22px;
+  }
+}

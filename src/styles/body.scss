@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: $background;
+  font-family: 'Cabin', sans-serif;
+
+  @include for-tablet {
+    background-color: $white;
+  }
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3 {
+  color: $blue;
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h1 {
+  @include for-mobile {
+    max-width: 500px;
+  }
+}
+
+a {
+  color: inherit;
+  opacity: 0.4;
+  font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

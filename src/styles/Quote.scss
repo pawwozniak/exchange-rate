@@ -1,0 +1,33 @@
+.quote-currency__container {
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: $lightblue;
+  display: flex;
+  flex-wrap: wrap;
+
+  @include for-mobile {
+    width: 280px;
+  }
+
+  .quote-currency-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin: 0 auto;
+
+    p {
+      cursor: pointer;
+
+      &:hover {
+        color: $active;
+      }
+    }
+
+    .active {
+      color: $active;
+    }
+  }
+}
